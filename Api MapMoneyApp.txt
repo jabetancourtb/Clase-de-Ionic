@@ -1,0 +1,5 @@
+Clave de API MapMoneyApp = AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8
+
+
+cordova plugin add cordova-plugin-geolocation
+

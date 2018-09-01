@@ -6,13 +6,27 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>adding</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Agregar movimiento 💸</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+
+    <ion-item>
+        <ion-label floating>Descripción</ion-label>
+        <ion-input type="text" [(ngModel)]="model.title"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Monto</ion-label>
+        <ion-input type="number" [(ngModel)]="model.amount"></ion-input>
+    </ion-item>
+
+    <div class="actions">
+        <button ion-button (click)="save()">Agregar</button>
+    </div>
 
 </ion-content>
