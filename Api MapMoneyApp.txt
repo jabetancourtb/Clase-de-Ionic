@@ -1,5 +1,8 @@
 Clave de API MapMoneyApp = AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8
 
 
-cordova plugin add cordova-plugin-geolocation
+ionic cordova plugin add cordova-plugin-googlemaps \--variable API_KEY_FOR_ANDROID="AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8" \ --variable API_KEY_FOR_IOS="AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8"
 
+
+
+ionic cordova plugin add https://github.com/mapsplugin/cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8" --variable API_KEY_FOR_IOS="AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8"

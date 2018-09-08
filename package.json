@@ -26,6 +26,7 @@
     "@ionic/lab": "^1.0.8",
     "@ionic/storage": "2.1.3",
     "cordova-plugin-geolocation": "^4.0.1",
+    "cordova-plugin-googlemaps": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps.git",
     "dexie": "^2.0.4",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
@@ -40,7 +41,11 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-geolocation": {}
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8",
+        "API_KEY_FOR_IOS": "AIzaSyAtW_udt145aa8BzKtSYeWDsiSFNoU0eN8"
+      }
     }
   }
 }
